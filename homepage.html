@@ -26,6 +26,7 @@
     <meta name="twitter:card" content="photo" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="styleguide.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
   </head>
   <body style="margin: 0; background: #f2e4dc">
     <input type="hidden" id="anPageName" name="page" value="homepage" />
@@ -175,18 +176,12 @@
             />
           </div>
         </div>
-  
+
+  <div class="preloader">
+    <img src="images/refresh.png">
+  </div>
+
   </body>
   <script src="js/index.js"></script>
 
-  <script>
-    $( ".menu-item-1" ).hover(
-      function() {
-        $( this ).append( $( "<span> ***</span>" ) );
-      }, function() {
-        $( this ).find( "span" ).last().remove();
-      }
-    );
-     
-    </script>
 </html>
